@@ -1,0 +1,25 @@
+<p>Employee List</p>
+
+<!-- <pre>
+    {{employees|json}}   pipe symbol is used to extract objects name employees from .ts file
+</pre> -->
+
+<div class="row">
+    <div class="col-3" *ngFor="let emp of employees">
+        <div class="card" style="width: 18rem;">
+            <div class="card-header">
+              {{emp.name}}
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">{{emp.username}}</li>
+              <li class="list-group-item">{{emp.email}}</li>
+              <li class="list-group-item">{{emp.phone}}</li>
+              <a href="">View</a>
+            </ul>
+          </div> 
+    </div>
+</div>
+
+
+
+
