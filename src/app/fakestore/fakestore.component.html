@@ -1,0 +1,19 @@
+<p>Products
+</p>
+
+<div class="row">
+    <div class="col-3" *ngFor="let prod of products">
+        <div class="card" style="width: 18rem;">
+            <div class="card-header">
+              {{prod.title}}
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">{{prod.price}}</li>
+              <li class="list-group-item">{{prod.category}}</li>
+              
+            </ul>
+          </div> 
+    </div>
+</div>
+
+

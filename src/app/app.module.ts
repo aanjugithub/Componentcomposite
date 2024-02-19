@@ -7,7 +7,8 @@ import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { EmployeeComponent } from './employee/employee.component';
 import {HttpClientModule} from '@angular/common/http';
-import { EmployeedetailsComponent } from './employeedetails/employeedetails.component'
+import { EmployeedetailsComponent } from './employeedetails/employeedetails.component';
+import { FakestoreComponent } from './fakestore/fakestore.component'
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { EmployeedetailsComponent } from './employeedetails/employeedetails.comp
     ParentComponent,
     ChildComponent,
     EmployeeComponent,
-    EmployeedetailsComponent
+    EmployeedetailsComponent,
+    FakestoreComponent
   ],
   imports: [
     BrowserModule,
